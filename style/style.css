@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+.frm{
+    width: 500px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 1px 1px 3px 0 grey;
+    margin-top: 20px;
+    padding: 20px;
+}
+label{
+    float: left;
+    width: 100%;
+}
+.frm-control{
+    width: 100%;
+    padding: 8px;
+    float: left;
+    border: 1px solid lightblue;
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+table tr th{
+    padding: 10px;
+    background-color: lightcoral;
+   border: 1px solid black;
+}
+table tr td{
+    padding: 5px;
+    border: 1px solid darkgrey;
+}
+.btn-post{
+    background-color: deeppink ;
+    width: 50px;
+    height: 30px;
+    padding: 20px 20px;
+    color: blue;
+}
